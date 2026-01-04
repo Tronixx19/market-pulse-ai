@@ -1,5 +1,5 @@
 import { createSignal, onMount, onCleanup, Show, For } from 'solid-js';
-import PriceChart from './Chart';
+import PriceChart from './chart';
 
 interface TradeData {
   symbol: string;
